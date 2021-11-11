@@ -1,0 +1,157 @@
+
+html{
+    font-size: 62.5%;
+        background-color: #f2f2f2;
+}
+*{
+    font-family: "Open sans";
+    box-sizing: border-box;
+}
+div{
+    max-width: 1100px;
+    margin: auto;
+}
+/*header*/
+header div p,.middle-header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 1.5rem;    
+}
+header>p{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(135,158,15,255);
+    color: white;
+}
+header{
+    background-image: url(../img/bg.jpg);
+}
+.middle-header{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.middle-header>p{
+    color: white;
+}
+p i{
+    border:1px solid #cad48a;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-left: 0.5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+/*main*/
+@font-face {
+    font-family: "amaranth";
+    src: url(../fonts/amaranth.otf);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "amaranth";
+    color: #9ead12    ;
+    margin-bottom: 1rem;
+}
+main{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+main img{
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+    margin-bottom: 1rem;
+}
+img+p{
+    margin-bottom: 2rem;
+
+}
+.flexslider{
+    margin-bottom: 2rem;
+
+}
+main section{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+main section h2{
+    flex-basis: 100%;
+    justify-self: center;
+    font-family: "amaranth";
+    font-size: 25px;
+    color: #9ead12 ;
+}
+h4{
+    font-family: "amaranth";
+    font-size: 30px;
+    color: #677179    ;
+    margin-top: 0%;
+}
+article{
+    width: 20%;
+    flex-grow: 1;
+    padding-bottom: 3rem;
+}
+article p{
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    color: #8b8c8e;
+    margin-bottom: 0%;
+    margin: auto;
+}
+h4+a{
+    background-color: #b09067;
+    color: white;
+    width: 8rem;
+    height: 4rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+/*footer*/
+footer{
+    background-image: url(../img/bg.jpg);
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fas{
+    align-self: center;
+    font-size: 20px;
+    margin-bottom: 0.8rem;
+}
+footer section{
+    background-color: transparent;
+}
+footer section article a,h3{
+    display: block;
+    margin: auto;
+}
